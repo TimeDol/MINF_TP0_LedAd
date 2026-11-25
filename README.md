@@ -22,19 +22,21 @@ J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du 
 **Mesure 3 seconde :**
 
 Réglage de l'oscilloscope :
-	CH1 : LED0 en mode CC 1V/Div
-	Base de temps : 500 ms/Div
+
+ - CH1 : LED0 en mode CC 1V/Div
+ - Base de temps : 500 ms/Div
 
 Maintenir le bouton reset et le relâcher affin de mesurer l’état de démarrage. Avec les curseurs, mesurer le temps ou les LEDs restent allumées et faire un oscillogramme de cette mesure.
 
 **Mesure chenillard :**
-
 Réglage de l'oscilloscope :
-	CH1 : LED0 en mode CC 2V/Div
-	CH2 : LED1 en mode CC 2V/Div
-	CH3 : LED2 en mode CC 2V/Div
-	CH4 : LED3 en mode CC 2V/Div
-	Base de temps : 100 ms/Div
+	
+
+ - CH1 : LED0 en mode CC 2V/Div
+ - CH2 : LED1 en mode CC 2V/Div
+ - CH3 : LED2 en mode CC 2V/Div
+ - CH4 : LED3 en mode CC 2V/Div
+ - Base de temps : 100 ms/Div
 
 Trigger sur le flanc descendant de la sonde CH1, arranger les quatre signaux sur l'écran de manière clair. Avec les curseurs mesurer le temps de la LED0 et faire un oscillogramme de cette mesure.
 
