@@ -259,7 +259,7 @@ void APP_UpdateState (APP_STATES newState)
  */
 void chenillard (void)
 {
-    static uint8_t LedIndex = 7;    // Index de la LED allumée
+    static uint8_t LedIndex = 7;    // Index de la LED allumée (Inisialisée a 7 pour voir le chenillard commencer par la led0)
     
     // éteindre toutes les LEDs
     LED0_W = 1;
