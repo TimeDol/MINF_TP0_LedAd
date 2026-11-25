@@ -54,3 +54,6 @@ Le programme fonctionne correctement comme demander dans le TP, le chenillard ef
 La lecture de l'ADC se fait aussi sans problème, nous avons bien les valeur de 0 à 1023 se qui correspond aux 10 bits des convertisseurs.
 Cependant, j'ai eu beaucoup de problème avec la prise en main de MPlabX, notamment le BSP qui disparaissait à chaque fois que je chargeais le configurateur graphique ce qui faisait qu'a chaque génération du code par le configurateur il me remplaçait les fichier et le déclaration BSP par d'autre se qui corrompais mon projet et qu'il a fallu recommencer trois fois.
 Pour palier a se problème je n'ai généré qu'une seul fois le code par le configurateur et je ne l'ai pas retoucher du projet.
+
+## Fichiers
+Tous les fichiers de programmation dur projet sont disponible dans le dossier firmware.
