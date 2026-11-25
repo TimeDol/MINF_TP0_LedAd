@@ -7,6 +7,11 @@ $$
 T_{tick} = \frac{SYSCLK}{Pre \cdot Freq} - 1 = \frac{80\,\text{MHz}}{256 \cdot 10\,\text{Hz}} - 1 = 31249
 $$
 
+SYSCLK : Fréquence de l'horloge du PIC
+Pre : valeur du prescaler du PIC
+Freq : Fréquence de interruption du timer
+T*tick* : valeur du registre de reload
+
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 1.
 
 ## Méthode de mesure
@@ -39,5 +44,6 @@ Ici, on peut voir le début du paterne du chenillard, comme la base de temps et 
 
 ## Conclusion
 Le programme fonctionne correctement comme demander dans le TP, le chenillard effectue le bon paterne dans le bon timing et les trois seconde de démarrage sont respectée.
+La lecture de l'ADC se fait aussi sans problème, nous avons bien les valeur de 0 à 1023 se qui correspond aux 10 bits des convertisseurs.
 Cependant, j'ai eu beaucoup de problème avec la prise en main de MPlabX, notamment le BSP qui disparaissait à chaque fois que je chargeais le configurateur graphique ce qui faisait qu'a chaque génération du code par le configurateur il me remplaçait les fichier et le déclaration BSP par d'autre se qui corrompais mon projet et qu'il a fallu recommencer trois fois.
 Pour palier a se problème je n'ai généré qu'une seul fois le code par le configurateur et je ne l'ai pas retoucher du projet.
