@@ -154,19 +154,19 @@ void APP_Tasks ( void )
         /* Application's initial state. */
         case APP_STATE_INIT:
         {
-            // passer dans l'état TASK
+            // passer dans l'Ã©tat TASK
             appData.state = APP_STATE_SERVICE_TASKS;
             
             // Allumer le back light du LCD
             lcd_bl_on();
             
-            // Aller a la première ligne
+            // Aller a la premiÃ¨re ligne
             lcd_gotoxy(1,1);
             
             // Afficher Nom TP et date
             printf_lcd("Tp0 Led+AD 2026");
             
-            // Aller a la deuxième ligne
+            // Aller a la deuxiÃ¨me ligne
             lcd_gotoxy(1,2);
             
             // Afficher Nom pernom
@@ -202,7 +202,7 @@ void APP_Tasks ( void )
             // Recup le resulat des channel 0 et 1 de l'ADC dans la structure
             ADCresult = BSP_ReadAllADC();
             
-            // Aller à la troisième ligne
+            // Aller Ã  la troisiÃ¨me ligne
             lcd_gotoxy(1,3);
             
             // Afficher le resultats des deux channel de l'ADC sur le LCD
@@ -243,7 +243,7 @@ void APP_Tasks ( void )
     void APP_UpdateState ( void )
 
   Remarks:
-    Permet de changer d'état.
+    Permet de changer d'Ã©tat.
  */
 void APP_UpdateState (APP_STATES newState)
 {
@@ -259,9 +259,9 @@ void APP_UpdateState (APP_STATES newState)
  */
 void chenillard (void)
 {
-    static uint8_t LedIndex = 0;    // Index de la LED allumée
+    static uint8_t LedIndex = 7;    // Index de la LED allumÃ©e
     
-    // éteindre toutes les LEDs
+    // Ã©teindre toutes les LEDs
     LED0_W = 1;
     LED1_W = 1;
     LED2_W = 1;
