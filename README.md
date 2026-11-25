@@ -39,10 +39,10 @@ Trigger sur le flanc descendant de la sonde CH1, arranger les quatre signaux sur
 
 *A notée que sur les mesures la LED et allumer quant le signal et a l’état bas !*
 ## Mesure 3 seconde
- ![Mesure des 3 seconde](https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+ ![Mesure des 3 seconde](/Image/3sec.png)
  Sur cette mesure on peut voir au tout début que le reset maintenu pendant une demi seconde, avent d’être relâcher, ensuite, pendant un petit temps, on voir que la LED et éteindre avent de rester allumer pendant les 3 seconde demandé avent de se reteindre et de commencer son cycle.
 ## Mesure chenillard
-![Mesure chenillard](https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+![Mesure chenillard](/Image/chenillard.png)
 Ici, on peut voir le début du paterne du chenillard, comme la base de temps et de 100 ms par division, on peut voir très clairement que chaque LEDs reste allumées les 200 ms demandé.
 
 ## Conclusion
