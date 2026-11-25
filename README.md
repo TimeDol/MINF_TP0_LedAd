@@ -41,7 +41,7 @@ Réglage de l'oscilloscope :
 
 Trigger sur le flanc descendant de la sonde CH1, arranger les quatre signaux sur l'écran de manière clair. Avec les curseurs mesurer le temps de la LED0 et faire un oscillogramme de cette mesure.
 
-*A notée que sur les mesures la LED et allumer quant le signal et a l’état bas !*
+*A noter que sur les mesures la LED et allumer quant le signal et a l’état bas !*
 ## Mesure 3 seconde
  ![Mesure des 3 seconde](/Image/3sec.png)
  Sur cette mesure on peut voir au tout début que le reset reste maintenu pendant une demi seconde, avent d’être relâcher. Ensuite, pendant un petit temps, on voir que la LED reste éteinte, avent de s'allumer pendant les 3 seconde demandé avent de se reteindre et de commencer son cycle.
