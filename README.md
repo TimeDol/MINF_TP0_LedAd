@@ -56,4 +56,4 @@ Cependant, j'ai eu beaucoup de problème avec la prise en main de MPlabX, notamm
 Pour palier a se problème je n'ai généré qu'une seul fois le code par le configurateur et je ne l'ai pas retoucher du projet.
 
 ## Fichiers
-Tous les fichiers de programmation dur projet sont disponible dans le dossier firmware.
+Tous les fichiers de programmation du projet sont disponible dans le dossier firmware.
